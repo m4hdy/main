@@ -1,0 +1,137 @@
+#blueprint {
+    background: rgb(51,72,181);
+    background: linear-gradient(90deg, rgba(51,72,181,0.7654412106639531) 5%, rgba(54,63,154,1) 38%, rgba(60,54,143,1) 87%);
+    color: white;
+}
+#blueprint .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+#blueprint .container::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+#blueprint .left-side {
+    width: 50%;
+    float: left;
+}
+#blueprint .left-side img {
+    width: 100%;
+}
+#blueprint .right-side {
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+#blueprint .right-side h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 50px;
+
+}
+#blueprint .right-side .info-container:nth-child(2) {
+    margin-bottom: 50px;
+}
+#blueprint .right-side .info-container::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+#blueprint .right-side .info-container .icon-container {
+    float: left;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+    margin-right: 50px;
+}
+#blueprint .right-side .info-container .icon-container .dashed-border {
+    border: 1.5px dashed white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    top: 7.2px;
+}
+#blueprint .right-side .info-container .icon-container .dashed-border .fas, #blueprint .right-side .info-container .icon-container .dashed-border .fab {
+    font-size: 3rem;
+    position: relative;
+    top: 16px;
+    left: 23px;
+}
+#blueprint .right-side .info-container .info-box {
+    float: left;
+    position: relative;
+    top: 14px;
+}
+#blueprint .right-side .info-container .info-box h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#blueprint .right-side .info-container .info-box p {
+    font-size: .7rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#blueprint .right-side .info-container .info-box a {
+    text-decoration: none;
+    color: #FEA83B;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+@media only screen and (max-width : 768px) {
+    #blueprint .container {
+        width: 100%;
+    }
+    #blueprint .container .left-side {
+        display: none;
+    }
+    #blueprint .container .right-side {
+        width: 100%;
+        padding: 0px;
+        padding: 0 5%;
+    }
+    #blueprint .right-side h1 {
+        font-size: 2.3rem;
+        font-weight: 600;
+        line-height: 1.2;
+        margin: 0 auto 50px;
+    }
+    #blueprint .right-side .info-container .icon-container {
+        width: 70px;
+        height: 70px;
+        margin-right: 50px;
+    }
+    #blueprint .right-side .info-container .icon-container .dashed-border {
+        width: 60px;
+        height: 60px;
+        top: 3px;
+    }
+    #blueprint .right-side .info-container .icon-container .dashed-border .fas, #blueprint .right-side .info-container .icon-container .dashed-border .fab {
+        font-size: 2.5rem;
+        top: 9px;
+        left: 16px;
+    }
+    #blueprint .right-side .info-container .info-box {
+        top: 7px;
+    }
+    #blueprint .right-side .info-container .info-box h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    #blueprint .right-side .info-container .info-box p {
+        font-size: .6rem;
+        margin-bottom: 5px;
+    }
+    #blueprint .right-side .info-container .info-box a {
+        font-size: .68rem;
+        display: block;
+    }
+}

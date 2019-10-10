@@ -1,0 +1,10 @@
+@import "landing-page/reset.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,600,700,800');
+@import "landing-page/landing.css";
+@import "landing-page/info-section.css";
+@import "landing-page/color-collection.css";
+@import "landing-page/blueprint.css";
+@import "landing-page/latest-headphones.css";
+@import "landing-page/footer.css";
+/* trying to see the log function */

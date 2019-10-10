@@ -1,0 +1,219 @@
+/* 
+FEA83B ORANGE
+6066F2 LIGHTBLUE
+B268F8 PURPLE
+4C44C1 BLUE
+E6CDF9 LIGHT PURPLE
+*/
+
+#top-jumbo {
+    background: rgb(255,255,255);
+    background: linear-gradient(139deg, rgba(255,255,255,1) 34%, rgba(238,156,233,0.9363095580028886) 56%, rgba(145,0,255,0.4937325271905637) 78%);
+    padding-bottom: 250px;
+    width: 100%;
+}
+
+#top-jumbo header {
+    font-size: 14px;
+    margin: 0px 40px 50px 40px;
+}
+#top-jumbo header > * {
+    display: inline-block;
+}
+#top-jumbo header .header-logo img {
+    height: 50px;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+#top-jumbo header ul {
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+#top-jumbo header ul li {
+    display: inline-block;
+    padding: 1px;
+    margin-right: 15px;
+}
+#top-jumbo header ul li a {
+    text-decoration: none;
+    color: #6066F2;
+    font-weight: 800;
+}
+#top-jumbo header .header-buttons {
+    float: right;
+    position: relative;
+    top: 36px;
+    right: 36px;
+}
+
+#top-jumbo header .header-buttons a {
+    padding: 10px 40px;
+    background-color: blue;
+    border-radius: 35px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#top-jumbo header .header-buttons a .fas{
+    margin-left: 8px;
+}
+#top-jumbo header .header-buttons .orange-btn {
+    background-color: #FEA83B;
+    margin-left: 10px;
+    box-shadow: -3px 7px 18px -10px rgba(-22, -24, -52, 24);
+}
+#top-jumbo header .header-buttons .blue-btn {
+    background-color: #6066F2;
+    box-shadow: -3px 7px 18px -10px rgba(-22, -24, -52, 24);
+
+}
+#top-jumbo .container {
+    width: 1200px; 
+    margin: 0 auto;
+}
+#top-jumbo .container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#top-jumbo .container .left-side{
+    width: 50%;
+    float: left;
+    position: relative;
+    bottom: 70px;
+}
+
+#top-jumbo .container .right-side {
+    width: 50%;
+    float: left;
+}
+#top-jumbo .container .right-side img {
+    width: 100%;
+}
+#top-jumbo .container .left-side h1 {
+    font-size: 15rem;
+    position: relative;
+    font-weight: 800;
+    top: 88px;
+    right: 18px;
+    z-index: 0;
+    color: #6066F2;
+    opacity: .1;
+}
+#top-jumbo .container .left-side h2 {
+    font-size: 3.5rem;
+    position: relative;
+    font-weight: 800;
+    color: #6066F2;
+
+}
+#top-jumbo .container .left-side p {
+    margin-top: 20px;
+    width: 78%;
+    line-height: 25px;
+    margin-bottom: 35px;
+    color: grey;
+    opacity: .9;    
+}
+#top-jumbo .container .left-side .email-form {
+    background: white;
+    padding: 5px;
+    border-radius: 35px;
+    display: inline-block;
+    box-shadow: -3px 7px 18px -10px rgba(-22, -24, -52, 24);
+}
+#top-jumbo .container .left-side .email-form form {
+    display: inline-block;
+}
+#top-jumbo .container .left-side .email-form .fas {
+    font-size: 25px;
+    position: relative;
+    top: 4.5px;
+    margin-right: 5px;
+    margin-left: 20px;
+    color: grey;
+    opacity: .9;
+}
+#top-jumbo .container .left-side .email-form form input[type="email"] {
+    border: none;
+    padding-right: 80px;
+}
+#top-jumbo .container .left-side .email-form form input[type="button"]{
+    background: #6066F2;
+    padding: 15px 35px;
+    border-radius: 35px;
+    color: white;
+    font-weight: 600;
+    border: 0;
+}
+#top-jumbo .container .left-side .email-form form input[type="email"]::placeholder {
+    border: none;
+    color: grey;
+    opacity: .9;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+@media only screen and (max-width : 768px) {
+    #top-jumbo .container {
+        width: 100%;
+        padding: 0 5%;
+    }
+    #top-jumbo .container .left-side {
+        width: 100%;
+    }
+    #top-jumbo .container .left-side h1 {
+        font-size: 13rem;
+    }
+    #top-jumbo .container .left-side h2{
+        font-size: 2rem;
+        width: 50%;
+        position: relative;
+        top: 10px;
+    }
+    #top-jumbo .container .left-side p{
+        margin-top: 25px;
+        width: 55%;
+    }
+    #top-jumbo .container .left-side .email-form {
+        width: 90%;
+    }
+    #top-jumbo .container .left-side .email-form .fas {
+        font-size: 20px;
+        margin: 0px;
+        width: 14%;
+        float: left;
+        text-align: center;
+    }
+    #top-jumbo .container .left-side .email-form form {
+        width: 86%;
+        float: left;
+    }
+    #top-jumbo .container .left-side .email-form form input[type="email"] {
+        padding-right: 0px;
+        float: left;
+        width: 60%;
+        position: relative;
+        top: 7px;
+    }
+    #top-jumbo .container .left-side .email-form form input[type="button"]{
+        padding: 10px 0px;
+        font-size: .77rem;
+        font-weight: 600;
+        letter-spacing: .2px;
+        float: right;
+        width: 35%;
+    }
+    #top-jumbo .container .left-side .email-form form input[type="email"]::placeholder {
+        text-transform: capitalize;
+    }
+    #top-jumbo .container .right-side {
+        width: 100%;
+        text-align: center;
+    }
+    #top-jumbo .container .right-side img {
+        width: 80%;
+    }
+
+}

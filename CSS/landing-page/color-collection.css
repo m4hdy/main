@@ -1,0 +1,177 @@
+#color-collection .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+#color-collection .container::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+#color-collection .left-side {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: -12px;
+}
+#color-collection .left-side img {
+    width: 100%;
+}
+#color-collection .right-side {
+    float: left;
+    position: relative;
+    top: 80px;
+    width: 50%;
+}
+#color-collection .right-side .col-1 {
+    float: left;
+    width: 80%;
+    position: relative;
+    top: 5px;
+}
+#color-collection .right-side .col-1 .circles-box{
+    border-radius: 40px;
+    box-shadow: -3px 1px 35px -16px rgba(0, 0, 0, .3);
+    height: 74px;
+    text-align: center;
+    padding: 6px;
+    width: 250px;
+    margin: 0 auto 25px;
+
+}
+#color-collection .right-side .col-1 .circles-box .circles{
+    height: 62px;
+    width: 62px;
+    background: blue;
+    display: inline-block;
+    border-radius: 50%;
+    opacity: .8;
+
+}
+#color-collection .right-side .col-1 .circles-box .blue {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+#color-collection .right-side .col-1 .circles-box .red {
+    margin: 0 10px;
+    background: rgb(255,26,0); /* Old browsers */
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+#color-collection .right-side .col-1 .circles-box .green {
+    background: rgb(143,200,0); /* Old browsers */
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    
+}
+#color-collection .right-side .col-1 .info {
+    text-align: center;
+    box-shadow: -3px 1px 35px -16px rgba(0, 0, 0, .3);
+    padding: 20px 10px;
+    width: 250px;
+    margin: 0 auto;
+}
+#color-collection .right-side .col-1 .info h2 .orange{
+    color: #FEA83B;
+    font-size: 2rem;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 300;
+
+}
+#color-collection .right-side .col-1 .info h2 .blue{
+    color: #6066F2;
+    font-size: 2rem;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+#color-collection .right-side .col-1 .info h2 .purple{
+    color: #E6CDF9;
+    font-size: 2rem;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+#color-collection .right-side .col-1 .info p {
+    padding: 35px 0px;
+    font-size: 13px;
+}
+#color-collection .right-side .col-1 .info a {
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6066F2;
+    margin-bottom: 30px;
+    display: block;
+}
+#color-collection .right-side .col-1 .info .line {
+    margin: 0 auto 10px;
+    width: 80px;
+    height: 2px;
+    background-color: #6066F2;
+}
+#color-collection .right-side .col-2 {
+    float: left;
+    width: 20%;
+}
+#color-collection .right-side .col-2 .color-slider {
+    height: 430px;
+    width: 17px;
+    background: rgb(226,39,19);
+    background: linear-gradient(180deg, rgba(226,39,19,1) 2%, rgba(232,149,17,1) 10%, rgba(232,226,42,1) 16%, rgba(114,239,14,1) 26%, rgba(72,229,214,1) 35%, rgba(17,63,223,1) 49%, rgba(211,25,192,1) 64%, rgba(233,9,198,1) 73%, rgba(255,0,61,0.4937325271905637) 89%);
+    border-radius: 35px;
+    position: relative;
+    top: -15px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px -2px rgba(0, 0, 0, .3)
+}
+#color-collection .right-side .col-2 .color-slider .picker {
+    height: 20px;
+    width: 20px;
+    background: #FEA83B;
+    border-radius: 50%;
+    position: relative;
+    right: 11px;
+    top: 180px;
+    border: 10px solid #fffffff6;
+    box-sizing: content-box;
+    box-shadow: 0px 0px 20px -2px rgba(0, 0, 0, .5)
+
+}
+/* comment */
+/* comment */
+@media only screen and (max-width : 768px) {
+    #color-collection {
+        margin-bottom: 50px;
+    }
+    #color-collection .container {
+        width: 100%;
+    }
+    #color-collection .left-side {
+        width: 100%;
+        text-align: center;
+        top: 0;
+        margin-bottom: 50px;
+    }
+    #color-collection .left-side img {
+        width: 80%;
+    }
+    #color-collection .right-side {
+        width: 100%;
+        top: 0;
+    }
+    #color-collection .right-side .col-1 .circles-box {
+        height: auto;
+        padding: 6px;
+    }#color-collection .right-side .col-1 .circles-box .circles{
+        height: 50px;
+        width: 50px;
+    }
+    #color-collection .right-side .col-2 .color-slider {
+        height: 380px;
+        width: 17px;
+        top: 0px;
+    }
+}
